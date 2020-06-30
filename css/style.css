@@ -21,7 +21,7 @@ body h1 {
     /* border: 1px dotted #000; */
     /* solid, dotted or dashed */
     /* border-top: none; */
-    position: fixed;
+    position: absolute;
     width: 100%;
     background: rgba(255, 255, 255, .9);
     top: 0px;
@@ -32,9 +32,9 @@ body h1 {
     display: block;
     width: 10px;
     height: 40px;
-    background: #000;
+    background: #00f;
     position: absolute;
-    
+    z-index: 4;
     left: 100px;
     bottom: 0px;
 
