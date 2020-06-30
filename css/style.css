@@ -97,6 +97,7 @@ article:active {
 }
 
 .my-text {
+    height: 600px;
     max-height: 200px;
     overflow: scroll;
     border: 2px solid #000;
