@@ -96,6 +96,10 @@ article:active {
     border-radius: 50px;
 }
 
+article:hover {
+    box-shadow: 5px 5px 20px rgba(0,0,0,7);
+}
+
 .my-text {
     height: 600px;
     max-height: 200px;
