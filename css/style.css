@@ -96,3 +96,9 @@ article:active {
     border-radius: 50px;
 }
 
+.my-text {
+    max-height: 200px;
+    overflow: scroll;
+    border: 2px solid #000;
+    overflow-x: hidden;
+}
