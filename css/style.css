@@ -51,11 +51,12 @@ article {
     padding: 10px;
     margin: 0px;
     box-shadow: 2px 2px 6px rgba(0,0,0,3);
-    transition: all 1s;
+    transition: box-shadow 500ms, background 1s;
 }
 
 article:hover {
     box-shadow: 5px 5px 20px rgba(0,0,0,7);
+    background: #aaa;
 }
 
 article img {
