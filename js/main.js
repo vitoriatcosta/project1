@@ -1,8 +1,10 @@
-var welcome_message = "This is a welcome message stored inside a variable";
+//aula: variables reassigned
 var age = 20;
-var exactage = 19.8;
+var name; //undefined (blank)
+console.log("My age is " + age);
 
+age++;
+// (age = age+1) = age++ e o mesmo vale para age--
+// (age = age+2) = age+=2
 
-
-alert(age+exactage);
-console.log("This is a log");
+console.log ("My age next year will be... " + age);
