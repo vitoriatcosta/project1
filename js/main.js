@@ -1,6 +1,6 @@
-function myFunction() { 
-    console.log ("My name is Xu")
+function printName(name, age) {
+    console.log ("Hello, ", name, ". You are", age); // , adiciona o espaço antes de name
 }
-//creating the function
 
-myFunction(); //calling the function
+printName("Nick", 28);
+printName ("Thomas", 20);
