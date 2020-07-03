@@ -22,5 +22,15 @@ hobbies.unshift("anything"); //replace the first item
 
 hobbies.forEach(function(item, index){ //item = i e index = ie
     console.log ("I like", item, index);
-
 })
+
+if (hobbies.indexOf('drawing') > -1) {
+    console.log ("in the array");
+}
+else {
+    console.log ("not in array");
+}
+
+if (hobbies.indexOf('sports') === -1) {
+    console.log ("not found")
+}
