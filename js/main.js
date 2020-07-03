@@ -1,6 +1,7 @@
-function printName(name, age) {
-    console.log ("Hello, ", name, ". You are", age); // , adiciona o espaço antes de name
+function buttonClicked() {
+    console.log ("Button clicked.");
 }
+var btn = document.getElementById("go-button");
 
-printName("Nick", 28);
-printName ("Thomas", 20);
+//object.method("event", function)
+btn.addEventListener("click", buttonClicked);
