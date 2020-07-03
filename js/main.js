@@ -15,6 +15,10 @@ var hobbies = ["reading", "drawing", "painting", "listening to music"];
 // console.log (hobbies.pop()); //retorna o último item de qualquer array
 
 hobbies.push("archery"); //adiciona o novo item
+//hobbies.shift(); 
+console.log(hobbies.shift());
+
+hobbies.unshift("anything"); //replace the first item
 
 hobbies.forEach(function(item, index){ //item = i e index = ie
     console.log ("I like", item, index);
