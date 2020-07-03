@@ -8,3 +8,10 @@ var btn = document.getElementById("go-button");
 //object.method("event", function)
 btn.addEventListener ("click", buttonClicked);
 //roda só uma vez
+
+//------------ARRAYS------------------------------------------------------------------------------------------
+var hobbies = ["reading", "drawing", "painting", "listening to music"];
+
+// console.log (hobbies.pop()); //retorna o último item de qualquer array
+
+hobbies.push("archery"); //adiciona o novo item
