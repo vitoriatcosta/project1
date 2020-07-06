@@ -5,9 +5,13 @@ function buttonClicked() {
     // btn.removeEventListener("click", buttonClicked);
     // document.getElementById ("text").innerHTML = "Don't do it." //muda a legenda do botõ após ser clicado
     var customText = document.getElementsByClassName ("my-input");
+    var textArea = document.getElementsByClassName ("text-area");
     var results = document.getElementById("text");
-    console.log(customText);
-    results.innerHTML = "Olá, " + customText[0].value;
+
+    results.innerHTML = "Olá, " + customText[0].value + "<br />";
+
+    results.innerHTML += "Sua mensagem é: " + textArea[0].value;
+
 
 }
 
