@@ -18,6 +18,14 @@ function saySomething(phrase) {
     console.log("You said " + phrase);
 }
 
+function getPhraseLength(phrase) {
+    var l = phrase.lenght;
+    //var dentro da funçao só existe dentro da funçao
+    return l;
+}
+
+getPhraseLength("This is a longer sentence, as you can see");
+
 var p = "this is the phrase for this variable";
 
 saySomething(p);
