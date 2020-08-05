@@ -3,17 +3,22 @@ var btn = document.getElementById("go-button");
 function buttonClicked() {
     console.log ("Button clicked.");
     // btn.removeEventListener("click", buttonClicked);
-    // document.getElementById ("text").innerHTML = "Don't do it." //muda a legenda do botõ após ser clicado
+    // document.getElementById ("text").innerHTML = "Don't do it." //muda a legenda do botão após ser clicado
     var customText = document.getElementsByClassName ("my-input");
     var textArea = document.getElementsByClassName ("text-area");
     var results = document.getElementById("text");
-
+    // exibe no console
     results.innerHTML = "Olá, " + customText[0].value + "<br />";
 
     results.innerHTML += "Sua mensagem é: " + textArea[0].value;
-
-
 }
+
+function saySomething(phrase); {
+    // phrase = var
+    console.log("You said " + phrase);
+}
+
+saySomething("Hello how are ya?")
 
 // //object.method("event", function)
 btn.addEventListener ("click", buttonClicked);
