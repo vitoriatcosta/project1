@@ -13,12 +13,15 @@ function buttonClicked() {
     results.innerHTML += "Sua mensagem é: " + textArea[0].value;
 }
 
-function saySomething(phrase); {
+function saySomething(phrase) {
     // phrase = var
     console.log("You said " + phrase);
 }
 
-saySomething("Hello how are ya?")
+var p = "this is the phrase for this variable";
+
+saySomething(p);
+//p vai para phrase por causa da função
 
 // //object.method("event", function)
 btn.addEventListener ("click", buttonClicked);
