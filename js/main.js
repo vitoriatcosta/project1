@@ -19,16 +19,17 @@ function saySomething(phrase) {
 }
 
 function getPhraseLength(phrase) {
-    var l = phrase.lenght;
+    var l = phrase.length;
     //var dentro da funçao só existe dentro da funçao
     return l;
 }
 
-getPhraseLength("This is a longer sentence, as you can see");
+var thisLength = getPhraseLength("This is a longer sentence, as you can see");
+console.log(thisLength);
 
-var p = "this is the phrase for this variable";
+//var p = "this is the phrase for this variable";
 
-saySomething(p);
+//saySomething(p);
 //p vai para phrase por causa da função
 
 // //object.method("event", function)
