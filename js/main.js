@@ -19,9 +19,9 @@ function saySomething(phrase) {
 }
 
 function getPhraseLength(phrase) {
-    var l = phrase.length;
+    var frase = phrase.length;
     //var dentro da funçao só existe dentro da funçao
-    return l;
+    return frase;
 }
 
 var thisLength = getPhraseLength("This is a longer sentence, as you can see");
